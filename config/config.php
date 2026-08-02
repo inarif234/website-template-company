@@ -1,6 +1,4 @@
 <?php
-ob_start();
-
 if (session_status() === PHP_SESSION_NONE) {
     // Cookie Settings
     session_set_cookie_params([
@@ -49,10 +47,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 $_SESSION['last_activity'] = time();
 
 // Database Connection
-$host = 'sql.freedb.tech';
-$dbname = 'freedb_LOvD8fFa';
-$username = 'u_9Uhro1';
-$password = 'fjimnTmDRdza';
+$host = 'localhost';
+$dbname = 'website_database';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
