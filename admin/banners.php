@@ -111,7 +111,7 @@ include __DIR__ . '/includes/header.php';
                                     <?php foreach ($banners as $b): ?>
                                     <tr class="hover:bg-slate-800/30 transition-colors">
                                         <td class="p-4">
-                                            <img src="<?= $base_url . '/' . htmlspecialchars($b['image_desktop']) ?>" class="w-16 h-10 object-cover rounded-lg shadow border border-slate-700/50" onerror="this.src='../public/assets/logo/logo.png'">
+                                            <img src="../public/uploads/banners/<?= htmlspecialchars($b['image_desktop']) ?>" class="w-16 h-10 object-cover rounded-lg shadow border border-slate-700/50">
                                         </td>
                                         <td class="p-4 font-semibold text-white text-xs leading-snug">
                                             <?= htmlspecialchars($b['headline']) ?>
