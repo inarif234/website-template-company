@@ -1,4 +1,6 @@
 <?php
+ob_start();
+
 if (session_status() === PHP_SESSION_NONE) {
     // Cookie Settings
     session_set_cookie_params([
