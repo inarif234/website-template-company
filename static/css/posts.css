@@ -1,0 +1,213 @@
+/* Global Styles */
+body { font-family: 'Poppins', sans-serif; }
+
+/* Glassmorphism Styles */
+.glass-panel {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.glass-input {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    color: #fff;
+}
+.glass-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Background Glowing Blobs (Blue) */
+.glow-blob-1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(29, 78, 216, 0.3) 0%, rgba(29, 78, 216, 0) 70%);
+    top: -150px;
+    left: -100px;
+    z-index: 0;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.glow-blob-2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.25) 0%, rgba(14, 116, 144, 0) 70%);
+    bottom: -150px;
+    right: -100px;
+    z-index: 0;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* Quill Customization */
+.ql-toolbar.ql-snow {
+    background-color: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    padding: 10px !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.ql-container.ql-snow {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-top: none !important;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    color: #f8fafc !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px !important;
+    min-height: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.ql-editor {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+}
+.ql-editor h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+.ql-editor p {
+    margin-bottom: 1rem;
+}
+.ql-editor ul {
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+}
+.ql-editor ol {
+    padding-left: 20px !important;
+}
+.ql-editor li {
+    margin-bottom: 4px;
+}
+.ql-editor a {
+    color: #3b82f6 !important;
+    text-decoration: underline !important;
+}
+.ql-snow .ql-stroke { stroke: #f8fafc !important; }
+.ql-snow .ql-fill { fill: #f8fafc !important; }
+.ql-snow .ql-picker { color: #f8fafc !important; }
+.ql-snow .ql-picker-options {
+    background-color: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 0.5rem !important;
+    padding: 5px !important;
+}
+.ql-snow .ql-picker-item { 
+    color: #f8fafc !important; 
+    display: block !important;
+    width: 100% !important;
+    padding: 4px 8px !important;
+    margin-bottom: 6px !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+}
+.ql-snow .ql-picker-item:last-child {
+    margin-bottom: 0 !important;
+}
+.ql-snow .ql-picker-item:hover,
+.ql-snow .ql-picker-item.ql-selected {
+    color: #3b82f6 !important;
+    background: rgba(59, 130, 246, 0.25) !important;
+}
+.ql-snow button {
+    color: #f8fafc !important;
+    border-radius: 5px;
+}
+.ql-snow button:hover, .ql-snow button.ql-active, .ql-snow .ql-picker-label:hover {
+    background: rgba(59, 130, 246, 0.3) !important;
+    color: #3b82f6 !important;
+}
+.ql-snow .ql-picker-label {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 4px !important;
+    padding: 4px 14px !important; /* Memperbesar ukuran kotak/border */
+    background: rgba(15, 23, 42, 0.8) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item::before {
+    color: #f8fafc !important;
+}
+#toolbar button {
+    width: 30px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f8fafc;
+    font-size: 13px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#toolbar button:hover {
+    background: rgba(59, 130, 246, 0.3);
+    color: #3b82f6;
+}
+.ql-snow .ql-tooltip {
+    background-color: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6) !important;
+    color: #f8fafc !important;
+    border-radius: 0.75rem !important;
+    padding: 10px 14px !important;
+    z-index: 40 !important;
+}
+.ql-snow .ql-tooltip input[type=text] {
+    background-color: rgba(15, 23, 42, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+    padding: 6px 10px !important;
+    font-size: 13px !important;
+    width: 220px !important;
+}
+.ql-snow .ql-tooltip a.ql-action::after {
+    color: #3b82f6 !important;
+    font-weight: 600 !important;
+    margin-left: 8px !important;
+}
+.ql-snow .ql-tooltip a.ql-remove::before {
+    color: #ef4444 !important;
+    margin-left: 8px !important;
+}
+.ql-snow .ql-tooltip::before {
+    color: #94a3b8 !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.5); }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(59, 130, 246, 0.5); }
+
+/* Date Input Calendar */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+/* Mobile Performance Optimization */
+@media (max-width: 767px) {
+    .glass-panel, aside {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+        background: rgba(15, 23, 42, 0.98) !important;
+    }
+}

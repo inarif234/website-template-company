@@ -1,0 +1,31 @@
+===================================================================
+                  END USER LICENSE AGREEMENT (EULA)
+===================================================================
+
+IMPORTANT - READ CAREFULLY: 
+By downloading, installing, or using this source code package, you 
+agree to be bound by the terms and conditions of this License Agreement.
+
+1. GRANT OF LICENSE
+This license grants you a personal, non-exclusive, non-transferable right 
+to use the included source code to create websites/web applications for:
+   - Your own personal or business use.
+   - Your direct end-clients (freelance/agency projects).
+
+2. RESTRICTIONS
+You are STRICTLY PROHIBITED to:
+   - Resell, redistribute, sub-license, rent, lease, or share the raw source code, templates, or any portion of this package on any marketplace, code repository, or public download site (e.g., CodeCanyon, GitHub, etc.).
+   - Claim the source code or design as your own original creation.
+   - Remove or alter any copyright notices or branding placeholders embedded within the source files.
+
+3. THIRD-PARTY COMPONENTS
+This package may include third-party open-source components, libraries, or assets. Your use of those components is subject to their respective original licenses, as outlined in the accompanying CREDITS.txt file.
+
+4. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+===================================================================
+Copyright (c) 2026 CMS HUB.
+Developed by Arif Rochman.
+All Rights Reserved.
+===================================================================

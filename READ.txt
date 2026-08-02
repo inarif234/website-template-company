@@ -1,0 +1,31 @@
+# Welcome! Thank You for Your Purchase
+
+Thank you for choosing and purchasing our CMS product. We truly appreciate your support and trust.
+
+## Documentation & Setup Guide
+To get started with the installation, database configuration, and complete user guide, please open the documentation file located in the **READ** folder.
+
+Documentation file:
+- **READ/READ.pdf**
+
+We recommend using any modern PDF reader or web browser to view the documentation.
+
+---
+
+Default Admin Login Credentials:
+
+- **Username:** admin
+- **Password:** @Admin123
+
+---
+
+If you have any questions or need assistance, please contact us through the platform where you purchased this product.
+
+==================================================
+Product Information
+
+Product: CMS HUB
+Version: 1.0.0
+Developer: Arif Rochman
+Year: 2026
+==================================================

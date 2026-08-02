@@ -1,0 +1,45 @@
+==================================================
+              THIRD-PARTY CREDITS & NOTICES
+==================================================
+
+Project Name: CMS HUB
+Description: Content Management System Built with PHP & Tailwind CSS
+
+This product uses the following open-source libraries and assets:
+
+1. Tailwind CSS
+   - Website: https://tailwindcss.com/
+   - License: MIT License
+   - Usage: Utility-first CSS framework for UI styling.
+
+2. Font Awesome (v6.4.0)
+   - Website: https://fontawesome.com/
+   - License: Font Awesome Free License / CC BY 4.0
+   - Usage: UI Icons across admin and frontend panels.
+
+3. Google Fonts (Poppins)
+   - Website: https://fonts.google.com/
+   - License: SIL Open Font License (OFL)
+   - Usage: Typography / font family for clean UI readability.
+
+4. Quill (v1.3.7)
+   - Website: https://quilljs.com/
+   - License: BSD 3-Clause License
+   - Usage: Rich text editor for posts/content management.
+
+5. SwiperJS (v11)
+   - Website: https://swiperjs.com/
+   - License: MIT License
+   - Usage: Touch slider / carousel components.
+
+6. PHPMailer
+   - Website: https://github.com/PHPMailer/PHPMailer
+   - License: GNU Lesser General Public License (LGPL v2.1)
+   - Usage: Secure email handler for contact and career forms.
+
+==================================================
+We sincerely thank the creators and maintainers 
+of these amazing tools and libraries!
+==================================================
+
+Created and maintained by Arif Rochman.

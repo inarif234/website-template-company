@@ -1,0 +1,56 @@
+/* Global Font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Layout Container */
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Content Editor Styles */
+.content-editor h3 {
+    font-size: 1.5rem; 
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.content-editor p {
+    margin-bottom: 1rem;
+}
+.content-editor ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.content-editor ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.content-editor li {
+    display: list-item;
+    margin-bottom: 0.25rem;
+}
+.content-editor a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+.content-editor a:hover {
+    color: #00008B; 
+}
