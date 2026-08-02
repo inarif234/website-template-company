@@ -7,7 +7,7 @@ include 'includes/header.php';
 include 'includes/navigation.php';
 
 // Data Email
-require_once __DIR__ . '/config/career-config.php';
+// require_once __DIR__ . '/config/career-config.php';
 
 // Data Job Vacancies
 $jobs = [
